@@ -33,13 +33,4 @@ class LoginPage:
 
     def clickLoginButton(self):
         loginButton = self.driver.find_element(By.CLASS_NAME, "btn-login")
-
-
-browser = webdriver.Chrome()
-test_Value = " pls work "
-
-#Test 2
-loginPage = LoginPage(driver=browser)
-loginPage.go()
-loginPage.writeUsername(test_Value)
-loginPage.writePassword(test_Value)
+        
