@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 from twHomePage import twHomePage
-import tribalwars
+from pages import tribalwars
 from locator import Locator
 
 #Test Setup
@@ -12,12 +12,3 @@ test_value = 'works'
 testPage = twHomePage(driver=browser)
 
 testPage.go()
-
-
-
-
-
-
-
-
-
